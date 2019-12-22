@@ -4,17 +4,20 @@
 <head>
   <meta charset="utf-8">
   <title>TinDog</title>
-  <link rel="stylesheet" href="css/styles.css">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <script src="https://kit.fontawesome.com/7bb8665fe2.js" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,900|Ubuntu:400,700&display=swap" rel="stylesheet">
 
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
 
   <section id="title">
+  <div class="container-fluid">
 
     <!-- Nav Bar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark">
     <a class="navbar-brand" href="#"><img src="dog.png" width="50px" alt=""> Chilab </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -30,43 +33,58 @@
         <li class="nav-item">
           <a class="nav-link" href="#">Blog</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-        </li>
+
       </ul>
     </div>
   </nav>
 
 
+
     <!-- Title -->
-
-    <div>
-      <h1>Meet new and interesting dogs nearby.</h1>
-      <button type="button">Download</button>
-      <button type="button">Download</button>
+<div class="row header ">
+    <div class="col-lg-6" >
+      <h1 >Meet new and interesting dogs nearby.</h1>
+      <button   class="btn btn-dark btn-lg download-btn" type="button"><i class="fab fa-apple"></i>  Download</button>
+      <button   class="btn btn-outline-light btn-lg download-btn" type="button"><i class="fab fa-google-play"></i>  Download</button>
     </div>
-    <div>
-      <img src="images/iphone6.png" alt="iphone-mockup">
+    <div class="col-lg-6" >
+      <img  class="img-1" src="images/iphone6.png" alt="iphone-mockup">
     </div>
-
+</div>
+</div>
   </section>
+
 
 
   <!-- Features -->
+<section id="features ">
 
-  <section id="features">
+<div class="container">
 
-    <h3>Easy to use.</h3>
-    <p>So easy to use, even your dog could do it.</p>
 
-    <h3>Elite Clientele</h3>
-    <p>We have all the dogs, the greatest dogs.</p>
+  <div class="row">
+    <div class="col-lg-4 centre">
+      <p><i class="fas fa-check-circle fa-4x"></i></p>
+      <h3>Easy to use.</h3>
+      <p>So easy to use, even your dog could do it.</p>
+    </div>
 
-    <h3>Guaranteed to work.</h3>
-    <p>Find the love of your dog's life or your money back.</p>
+    <div class="col-lg-4 centre">
+      <p><i class="fas fa-bullseye fa-4x"></i></p>
+      <h3>Elite Clientele</h3>
+      <p>We have all the dogs, the greatest dogs.</p>
+    </div>
 
-  </section>
+    <div class="col-lg-4 centre">
+      <p><i class="fas fa-heart fa-4x"></i></p>
+      <h3>Guaranteed to work.</h3>
+      <p>Find the love of your dog's life or your money back.</p>
+    </div>
+  </div>
 
+</div>
+
+</section>
 
   <!-- Testimonials -->
 
@@ -138,6 +156,7 @@
     <button type="button">Download</button>
 
   </section>
+
 
 
   <!-- Footer -->
